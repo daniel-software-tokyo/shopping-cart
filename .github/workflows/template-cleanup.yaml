@@ -28,22 +28,9 @@ jobs:
       - name: Cleanup
         shell: bash
         run: |
-          # Make tmp dir and move work dir to tmp
-          mkdir "tmp" && cd tmp || exit
-
-          # Move work dir to project root
-          cd ..
-
-          # Copy templates
-          cp -R .github/templates/. tmp
-
           # Delete anything
-          rm -rf \
-            .github \
-            docs
-
-          # Move new training project to project root
-          mv -f tmp/.[^\.]* ./ && rm -rf tmp
+          rm -rf docs .github/actions
+          rm -f .github/workflows/template-cleanup.yaml
 
       - name: Commit files
         run: |
