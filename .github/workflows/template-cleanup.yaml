@@ -22,6 +22,13 @@ jobs:
       - name: Fetch sources
         uses: actions/checkout@v3
 
+      - name: labels initialize
+        uses: micnncim/action-label-syncer@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          manifest: .github/labels.yaml
+
       - name: Create issues from sessions
         uses: ./.github/actions
 
