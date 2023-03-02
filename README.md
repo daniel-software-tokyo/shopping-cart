@@ -1,4 +1,4 @@
-# Bowling
+# ShoppingCart
 
 新人教育用リポジトリ。まずはNUnitを使ってユニットテストを使って開発する事に慣れていこう。
 
@@ -11,13 +11,13 @@
 1. GitHubで、画面右上の`Use this template`をクリックし、`Create a new repository`をクリックする
 1. 以下を設定して`Create repository from template`をクリックする
     - owner: 自分のアカウント
-    - Repository name: bowling
+    - Repository name: shopping-cart
     - (select!)Public
     - (check off) Include all branches
 1. 作成したリポジトリが表示されるまで待つ
     - 画面が自動的に切り替わらなかったら`F5`してみてください。
 1. コードレビューの為にレビュアーを設定しましょう
-    1. GitHubで、Bowlingのリポジトリの`Setting`をクリックする
+    1. GitHubで、ShoppingCartのリポジトリの`Setting`をクリックする
     1. 左のメニューにある`Collaborators`をクリックする
     1. `Search by username, full name or email address`のテキストボックスに  
     コードレビューしてもらいたいユーザーのIDを入れて`Add collaborator`をクリックする
@@ -27,7 +27,7 @@
 
 1. Createした自分のリポジトリを、PCに`Clone`する
     1. GitHubで、画面中央付近の緑色の`Code▼`をクリック
-    1. `SSH`タブを選択し、`git@github.com:(自分のID)/Bowling.git`をコピー
+    1. `SSH`タブを選択し、`git@github.com:(自分のID)/ShoppingCart.git`をコピー
     1. GitBashで`git clone git@～(先程コピーしたもの)`を叩く
         - Bashでの貼り付け操作は`Shift`+`Insert`
 

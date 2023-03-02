@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' アセンブリ属性の値を確認します
 
-<Assembly: AssemblyTitle("Bowling.Test")>
+<Assembly: AssemblyTitle("ShoppingCart.Test")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Bowling.Test")>
+<Assembly: AssemblyProduct("ShoppingCart.Test")>
 <Assembly: AssemblyCopyright("Copyright ©  2022")>
 <Assembly: AssemblyTrademark("")>
 

@@ -18,4 +18,4 @@ jobs:
 
     - name: Run NUnit
       shell: cmd
-      run: External-Bin\Net\2.0\nunit-console.exe Bowling.Test\bin\Debug\Bowling.Test.dll
+      run: External-Bin\Net\2.0\nunit-console.exe ShoppingCart.Test\bin\Debug\ShoppingCart.Test.dll

@@ -16,7 +16,7 @@ jobs:
 
     timeout-minutes: 10
 
-    if: github.event.repository.name != 'bowling-template'
+    if: github.event.repository.name != 'shopping-cart-template'
     steps:
 
       - name: Fetch sources
