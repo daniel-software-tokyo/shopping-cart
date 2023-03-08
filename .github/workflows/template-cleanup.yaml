@@ -29,9 +29,6 @@ jobs:
         with:
           manifest: .github/labels.yaml
 
-      - name: Create issues from sessions
-        uses: ./.github/actions
-
       - name: Cleanup
         shell: bash
         run: |
